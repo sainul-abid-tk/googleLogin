@@ -71,10 +71,10 @@ function LandingPage() {
     style={{height:'100%'}}
       className="row "
     >
-    <div className="col-6 d-flex align-items-center justify-content-center ">
+    <div className="col-lg-6 col-sm-12  d-flex align-items-center justify-content-center ">
     <h1 className="welcome">HELLO <span className="text-warning">{user.name}</span></h1>
     </div>
-    <div className="col-6 d-flex justify-content-center align-items-center ">
+    <div className="col-lg-6 col-sm-12 d-flex justify-content-center align-items-center ">
       <img width={800} src={welcomeImage} alt="" />
     </div>
     </div>
